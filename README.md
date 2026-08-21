@@ -2,7 +2,7 @@
 
 A simple Cars Collection website built using React.js.This project displays different cars with their company,model name, category, price, and image.
 
-##📌 Features
+## 📌 Features
 
 🚘 Display multiple cars
 
