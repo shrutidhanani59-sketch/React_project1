@@ -2,8 +2,8 @@ function Header()
 {
     return(
         <nav style={mystyle.mynav} >
-            <div>
-                <h1>Logo</h1>
+            <div style={mystyle.myimg}>
+                <img src="https://png.pngtree.com/png-vector/20240804/ourmid/pngtree-car-for-logo-design-png-image_13376174.png" alt="Logo"  style={mystyle.logo}/>
             </div>
             <div>
                 <ul style={mystyle.myul}>
@@ -45,5 +45,16 @@ const mystyle = {
         fontSize: "16px",
         fontWeight: "bold",
         transition: "0.3s",
-    }
+    },
+myimg: {
+    height: "80px",
+    width: "140px",
+    display: "flex",
+    alignItems: "center",
+},
+logo: {
+    width: "130px",
+    height: "75px",
+    objectFit: "contain",
+},
 };
