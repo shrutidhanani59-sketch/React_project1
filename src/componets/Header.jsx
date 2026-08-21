@@ -2,7 +2,7 @@ function Header()
 {
     return(
         <nav style={mystyle.mynav} >
-            <div style={mystyle.myimg}>
+            <div style={mystyle.myimg}> 
                 <img src="https://png.pngtree.com/png-vector/20240804/ourmid/pngtree-car-for-logo-design-png-image_13376174.png" alt="Logo"  style={mystyle.logo}/>
             </div>
             <div>
