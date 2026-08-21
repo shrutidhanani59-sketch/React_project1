@@ -19,18 +19,31 @@ function Header()
 
 export default Header;
 
-const mystyle={
-    mynav:{
-        backgroundColor:"cadetblue",
-        color:"white",
-        display:"flex",
+const mystyle = {
+    mynav: {
+        background: "linear-gradient(135deg, #0f766e, #155e75)",
+        color: "white",
+        display: "flex",
         justifyContent: "space-between",
-        padding:"10px 20px",
+        padding: "15px 30px",
         alignItems: "center",
-        
+        fontFamily: "Verdana, sans-serif",
+        boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
     },
-    myul:{
-        display:"flex",
-        gap:"10px",
+
+    myul: {
+        display: "flex",
+        gap: "25px",
+        listStyle: "none",
+        margin: "0",
+        padding: "0",
+        alignItems: "center",
+    },
+
+    myli: {
+        cursor: "pointer",
+        fontSize: "16px",
+        fontWeight: "bold",
+        transition: "0.3s",
     }
-}
+};

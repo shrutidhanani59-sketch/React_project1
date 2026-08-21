@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body
+{
+    background-color: #dff7f5;
+}
+section h1
+{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 40px;
+    color: #055269;
+
+}
+section div
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px 30px;
+} 
+section img
+{
+    width: 200px;
+}
+section main
+{
+    box-shadow: 1px 1px 4px gray;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+section main:hover
+{
+    transform: translateY(-8px);
+}
+section img
+{
+    width: 100%;
+    transition: 0.3s;
+
+}
+section img:hover
+{
+    transform: scale(1.02);
+}
+
+section h2
+{
+    text-align: center;
+    color:#055269 ;
+}
+section h3
+{
+    text-align: center;
+    color:#055269;
+    font-weight: bold;
+}
+section .price{
+    text-align: center;
+    color: red;
+}
+section p{
+    text-align: center;
+     color:#055269;
+}

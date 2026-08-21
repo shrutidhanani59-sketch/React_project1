@@ -1,17 +1,36 @@
-# React + Vite
+# 🚗 Car Collaction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Cars Collection website built using React.js.This project displays different cars with their company,model name, category, price, and image.
 
-Currently, two official plugins are available:
+📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚘 Display multiple cars
 
-## React Compiler
+🏢 Show car company name
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚗 Show car model name
 
-## Expanding the ESLint configuration
+💰 Display car price
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# React_project1" 
+🏷️ Display car category
+
+🖼️ Car images
+
+✨ Clean and modern card design
+
+📱 Responsive layout
+
+🎨 Styled using CSS
+
+🧩 React Components
+
+🛠️ Technologies Used
+
+React.js
+
+JavaScript
+
+HTML
+
+CSS
+
