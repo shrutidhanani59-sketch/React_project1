@@ -74,3 +74,39 @@ section p{
     text-align: center;
      color:#055269;
 }
+
+@media (max-width: 600px) {
+
+    section div {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px 15px;
+    }
+
+    section h1 {
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    section main {
+        padding: 15px;
+        gap: 15px;
+    }
+
+    section img {
+        width: 100%;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+
+    section h3 {
+        font-size: 20px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+}
