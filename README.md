@@ -31,8 +31,6 @@ React.js
 
 JavaScript
 
-HTML
-
 CSS
 
 ## 📸 Screenshot
